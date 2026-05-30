@@ -33,14 +33,101 @@ footer p{
 }
 
 #contact{
-    padding: 100px 0;
-    text-align: center;
+    min-height: 80vh;
+    padding: 130px 10% 80px;
     background-color: rgba(121, 94, 55, 0.932);
     color: white;
 }
 
-#contact p{
-    padding: 10px 0;
+.contactTop{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contactTop h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.contactTop p {
+    font-size: 20px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.contactContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.contactInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contactCard {
+    background-color: white;
+    color: #72635D;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contactCard h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.contactCard p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.contactForm {
+    background-color: white;
+    color: #72635D;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contactForm h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.contactForm input, .contactForm textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.contactForm textarea {
+    height: 140px;
+    resize: none;
+}
+
+.contactForm button {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #72635D;
+    border-radius: 10px;
+    background-color: #72635D;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contactForm button:hover {
+    background-color: white;
+    color: #72635D;
 }
 
 footer{
@@ -208,6 +295,10 @@ footer{
 }
 
 @media (max-width: 835px) {
+    .contactContainer {
+        grid-template-columns: 1fr;
+    }
+
     .navbar{
         flex-direction: column;
     }
@@ -234,6 +325,14 @@ footer{
 }
 
 @media (max-width: 650px){
+    .contactInfo {
+        grid-template-columns: 1fr;
+    }
+
+    .contactTop h1 {
+        font-size: 38px;
+    }
+
     #cards{
         grid-template-columns: 1fr;
     }

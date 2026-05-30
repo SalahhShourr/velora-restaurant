@@ -1,4 +1,10 @@
+import { Link } from "react-router-dom";
+
 function Home(){
+    const scrollToTop = () => {
+        window.scrollTo(0,0);
+    };
+
     const specials = [
     {
       image: "/food3.webp",
@@ -61,7 +67,7 @@ function Home(){
             high-quality ingredients to ensure an unforgettable dining
             experience.
           </p>
-          <a href="/menu">VIEW MENU</a>
+          <Link onClick={scrollToTop} to="/menu">VIEW MENU</Link>
         </div>
 
         <div className="img">

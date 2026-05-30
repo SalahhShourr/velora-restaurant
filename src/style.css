@@ -114,7 +114,7 @@ footer p{
     resize: none;
 }
 
-.contactForm button {
+.contactForm button{
     width: 100%;
     padding: 14px;
     border: 2px solid #72635D;
@@ -261,6 +261,28 @@ footer{
     align-items: center;
     color: white;
     text-align: center;
+}
+
+#reservation h1{ 
+    font-size: 100px; 
+} 
+
+#reservation a{ 
+    border: 2px solid white; 
+    background-color: white; 
+    padding: 10px 50px;
+     border-radius: 5%; 
+     color: rgb(121, 92, 55); 
+     margin-top: 30px; 
+}
+     
+#reservation a:hover{ 
+    border: 2px solid white; 
+    background-color: rgb(121, 92, 55); 
+    padding: 10px 50px; 
+    border-radius: 5%; 
+    color: white; 
+    margin-top: 30px; 
 }
 
 #reservationPage {

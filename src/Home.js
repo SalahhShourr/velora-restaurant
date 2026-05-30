@@ -77,7 +77,7 @@ function Home(){
 
       <div id="reservation">
         <h1>RESERVATIONS</h1>
-        <a href="/reservation">BOOK HERE</a>
+        <Link onClick={scrollToTop} to="/reservation">BOOK HERE</Link>
       </div>
 
       <div id="card-container">

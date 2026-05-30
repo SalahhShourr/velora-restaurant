@@ -53,7 +53,7 @@ function Home(){
             refined techniques to create meals that feel both timeless and
             unforgettable.
           </p>
-          <a href="">READ MORE</a>
+          <Link to="">READ MORE</Link>
         </div>
       </div>
 

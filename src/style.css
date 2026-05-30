@@ -139,31 +139,78 @@ footer{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-#menu-container{
-    padding: 100px 0px;
-    text-align: center;
+#menuPage {
+    min-height: 80vh;
+    padding: 130px 10% 80px;
     background-color: rgba(121, 94, 55, 0.932);
-}
-
-#menu-container h1{
-    padding-bottom: 20px;
     color: white;
 }
 
-#menu{
-    background-color: rgb(243, 243, 243);
-    border: 2px solid black;
-    border-radius: 2%;
-    width: 50%;
-    margin: 0 auto;
+.menuTop {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.menu-item{
+.menuTop h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.menuTop p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.menuSections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+}
+
+.menuSection {
+    background-color: white;
+    color: #72635D;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.menuSection h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #72635D;
+    padding-bottom: 10px;
+}
+
+.betterMenuItem{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    padding: 10px 20px;
+    gap: 20px;
+    padding: 18px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.betterMenuItem:last-child{
+    border-bottom: none;
+}
+
+.betterMenuItem h3{
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.betterMenuItem p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #8a7a72;
+}
+
+.betterMenuItem span{
+    font-size: 22px;
+    font-weight: bold;
+    white-space: nowrap;
 }
 
 .card{
@@ -214,6 +261,15 @@ footer{
     border-radius: 5%;
     color: white;
     margin-top: 15px;
+}
+
+.info a:hover{
+     border: 2px solid #72635D; 
+     background-color: white; 
+     padding: 10px 30px; 
+     border-radius: 5%; 
+     color: #72635D; 
+     margin-top: 15px; 
 }
 
 #background{

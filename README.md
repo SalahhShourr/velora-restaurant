@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+# Velora Restaurant Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Velora is a responsive restaurant website built using ReactJS. The website allows users to learn about the restaurant, view the menu, reserve a table, and contact the restaurant through a clean and user-friendly interface.
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+This project is a frontend web application developed as a continuation of the phase-1 restaurant website project. The main goal of the project is to apply ReactJS concepts, responsive web design, UI/UX design principles, and Git/GitHub version control.
 
-### `npm start`
+Velora solves a real-world restaurant presentation problem by giving customers an easy way to browse restaurant information, explore menu items, check dining details, reserve a table, and contact the restaurant.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Responsive Home page
+* Menu page with categorized food items
+* Reservation page with booking form
+* Contact page with contact information and message form
+* Reusable Navbar component
+* Reusable Footer component
+* Navigation using React Router
+* Responsive design for desktop and mobile devices
+* Version control using Git and GitHub
 
-### `npm test`
+## Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Home Page
 
-### `npm run build`
+The Home page introduces Velora restaurant, displays restaurant information, highlights the menu, includes a reservation section, and shows today's specials.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Menu Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The Menu page displays food items in organized categories with names, descriptions, and prices.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Reservation Page
 
-### `npm run eject`
+The Reservation page includes a booking form where users can enter their name, contact information, date, time, number of guests, and special requests.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Contact Page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The Contact page includes the restaurant phone number, email, location, opening hours, and a contact form.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* ReactJS
+* React Router
+* JavaScript
+* CSS
+* HTML
+* Git
+* GitHub
 
-## Learn More
+## Setup Instructions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run this project locally, follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 1. Clone the Repository
 
-### Code Splitting
+```bash
+git clone https://github.com/SalahhShourr/velora-restaurant
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 2. Open the Project Folder
 
-### Analyzing the Bundle Size
+```bash
+cd velora-restaurant
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 3. Install Dependencies
 
-### Making a Progressive Web App
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 4. Start the Development Server
 
-### Advanced Configuration
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 5. Open the Website
 
-### Deployment
+Open this link in your browser:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```txt
+http://localhost:3000
+```
 
-### `npm run build` fails to minify
+## Screenshots of the UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### Menu Page
+
+![Menu Page](screenshots/menu.png)
+
+### Reservation Page
+
+![Reservation Page](screenshots/reservation.png)
+
+### Contact Page
+
+![Contact Page](screenshots/contact.png)
+
+### Mobile View
+
+![Mobile View](screenshots/mobile.png)
+
+## Project Structure
+
+```txt
+src/
+  App.js
+  Home.js
+  Menu.js
+  Reservation.js
+  Contact.js
+  Navbar.js
+  Footer.js
+  style.css
+```
+
+## Author
+
+Salah Shour
